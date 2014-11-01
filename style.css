@@ -1,0 +1,13 @@
+input{
+	width: 50px;
+}
+
+#container{
+	width: 960px;
+	margin: 0 auto;
+	border: 1px solid;
+}
+
+#container div{
+	padding: 6px;
+}
