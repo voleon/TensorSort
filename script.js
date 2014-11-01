@@ -131,6 +131,8 @@ function sortButtonClick(){
 		speed = speedInput;
 	if(speed < 1)
 		speed = 1;
+	if(speed > 1000)
+		speed = 1000;
 	sort();
 }
 
